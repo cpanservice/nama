@@ -27,4 +27,5 @@ use inc::Module::Install;
 		Time::HiRes => 0,
 		YAML::Tiny => 0,
 		;
-        WriteAll;
+        repository 'http://github.com/bolangi/nama';
+WriteAll;
